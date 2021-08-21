@@ -1,0 +1,54 @@
+body {
+  background-color:#FF7B00;
+}
+
+.main-container .main-title {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.main-container .main-title p {
+  font-family: 'Style Script', cursive;
+  font-size: 17vw;
+}
+
+.main-container .main-description {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.main-container .main-description p {
+  display: inline-block;
+  font-family: 'MaruBuri-Regular';
+  font-size: 5vw;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 1024px) {
+  .main-container .main-title p {
+    font-family: 'Style Script', cursive;
+    font-size: 100px;
+  }
+
+  .main-container .main-description p {
+    display: inline-block;
+    font-family: 'MaruBuri-Regular';
+    font-size: 40px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@font-face {
+  font-family: 'MaruBuri-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
