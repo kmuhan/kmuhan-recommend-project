@@ -36,7 +36,3 @@ yarn-error.log*
 # serverless
 .serverless
 .serverless_nextjs
-
-# yarn
-yarn.lock
-.eslintrc.json
