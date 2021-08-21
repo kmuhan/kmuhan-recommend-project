@@ -33,5 +33,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# serverless
 .serverless
 .serverless_nextjs
+
+# yarn
+yarn.lock
+.eslintrc.json
