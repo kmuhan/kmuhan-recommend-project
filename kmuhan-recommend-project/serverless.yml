@@ -1,2 +1,6 @@
 kmuhanRecommendServerlessNext:
   component: '@sls-next/serverless-component@1.18.0'
+  inputs:
+    bucketName: "j6d6sf-0jtxxts"
+    cloudfront:
+      distributionId: "E3GF13RADRJI1W"
